@@ -1,0 +1,7 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:Inter,Segoe UI,Helvetica,Arial;}
+body{background:#0f172a;color:#e6eef8;display:flex;flex-direction:column;align-items:center;padding:20px 10px;}
+#hud{width:800px;display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;}
+#title{font-weight:700;}
+#info{font-size:14px;color:#cfe9ff;}
+#game{background:linear-gradient(#7ec0ff,#8fbfff);border:6px solid #07132a;border-radius:8px;}
+#instructions{width:800px;margin-top:8px;color:#cfe9ff;font-size:13px;text-align:center;}
