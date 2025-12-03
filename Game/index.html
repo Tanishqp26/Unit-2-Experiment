@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>UnitII - Simple Game</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="hud">
+    <div id="title">Unit II — Mini Game</div>
+    <div id="info">Health: <span id="health">100</span> &nbsp;|&nbsp; Score: <span id="score">0</span></div>
+  </div>
+
+  <canvas id="game" width="800" height="480"></canvas>
+
+  <div id="instructions">
+    Controls: ← → to move, X to jump, C to shoot, R to restart.  
+    Objective: Shoot enemies (red rectangles). Reach the right edge to win level.
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
